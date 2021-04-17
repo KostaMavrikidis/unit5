@@ -1,0 +1,79 @@
+
+html {
+	overflow: hidden;
+}
+
+header{
+  	width: 97.1%;
+  	border: 10px solid red;
+  	padding: 0;
+  	text-align: center;
+  	position: absolute;
+}
+
+footer {
+  margin:auto;
+  width: 97.1%;
+  border: 10px solid red;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  height: 1.5rem; 
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+div.title {
+	font-size:50px;
+	font-weight: bolder;
+    font-weight: 900;
+}
+
+div.rules {
+	font-size:25px;
+	font-weight: bold;
+    font-weight: 10;
+}
+
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+	padding-bottom:80px;
+}
+
+div.left {
+  float: left;
+  width: 45%;
+  margin-left: auto;
+}
+
+div.right {
+  float: right;
+  width: 45%;
+  margin-left: auto;
+}
+
+button {
+  background-color: #ffcb05;
+  border: 10px red;
+  color: #cc0000;
+  padding: 10px 20px;
+  height: 20px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+b {
+	font-size: 450px;
+	font-style: bolder;
+	text-align: center;
+}
